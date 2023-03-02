@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct DragView: View {
-    private let imageSize: CGFloat = 100
+    private let imageSize: CGFloat = 120
     @State private var offset = CGSize.zero
     var imageName: String
     var endLocation:CGPoint
