@@ -52,7 +52,7 @@ struct DragView: View {
     }
 }
 
-struct DraggableImage_Previews: PreviewProvider {
+struct DragView_Previews: PreviewProvider {
     static var previews: some View {
         DragView(imageName: "image", endLocation: CGPointMake(0,0))
     }
